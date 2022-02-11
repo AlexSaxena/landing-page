@@ -86,3 +86,8 @@ main {
 .tea-image {
   border-radius: 2%;
 }
+.card-text {
+  width: 320px;
+  font-size: 18px;
+  color: rgb(26, 26, 26);
+}
