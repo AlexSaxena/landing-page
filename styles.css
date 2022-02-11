@@ -82,7 +82,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border: solid black 1px;
-  /* height: 150px;
-  width: 220px; */
+}
+.tea-image {
+  border-radius: 2%;
 }
