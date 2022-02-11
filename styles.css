@@ -73,6 +73,7 @@ main {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  text-align: center;
 }
 .card-container {
   display: flex;
@@ -89,5 +90,32 @@ main {
 .card-text {
   width: 320px;
   font-size: 18px;
+  color: rgb(26, 26, 26);
+}
+.quote-container {
+  display: flex;
+  padding: 5%;
+  /* align-self: center; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  /* width: 50%; 
+  border-radius: 2%; */
+  background-color: #e5e7eb;
+}
+.quote {
+  font-size: 36px;
+
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote-author {
+  align-self: flex-end;
+  margin-right: 10%;
+  font-size: 26px;
+  font-weight: bolder;
+  font-style: normal;
   color: rgb(26, 26, 26);
 }
